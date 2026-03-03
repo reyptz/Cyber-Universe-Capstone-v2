@@ -574,3 +574,82 @@ $RECYCLE.BIN/
 .directory
 .Trash-*
 .nfs*
+
+
+#Ignore windsurf AI rules
+.windsurfrules
+
+
+# Rust
+/rust/target/
+**/*.rs.bk
+Cargo.lock
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# C/C++
+*.o
+*.ko
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+*.out
+*.app
+*.i
+*.s
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.vcxproj.*.user
+
+# Go
+/bin/
+/vendor/
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db

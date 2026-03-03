@@ -5,8 +5,8 @@ on:
     branches: [ main, develop ]
   pull_request:
     branches: [ main ]
-  schedule:
-    - cron: '0 2 * * *'  # Scan quotidien à 2h
+  #schedule:
+  #  - cron: '0 2 * * *'   Scan quotidien à 2h
 
 env:
   REGISTRY: ghcr.io
